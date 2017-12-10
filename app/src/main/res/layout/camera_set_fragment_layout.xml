@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="自动录像"/>
+
+            <Switch
+                android:id="@+id/c_automatic_video_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="视频文件格式"/>
+
+            <Spinner
+                android:id="@+id/c_video_file_format_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerVideoFormat"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="抗闪烁"/>
+
+            <Spinner
+                android:id="@+id/c_anti_twinkle_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerAntiTwinkle"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="主屏显示相机设置按钮"/>
+
+            <Switch
+                android:checked="true"
+                android:id="@+id/c_show_setting_button_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="显示方向图"/>
+
+            <Switch
+                android:checked="true"
+                android:id="@+id/c_show_drection_map_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="网格参考线"/>
+
+            <Spinner
+                android:id="@+id/c_grid_line_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerGridReferenceLine"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <TextView
+            android:id="@+id/g_reset_all_set_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center"
+            android:text="格式化SD卡"
+            />
+    </LinearLayout>
+
+</ScrollView>

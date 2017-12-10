@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:focusable="true"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="距离单位"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/g_inch_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:button="@drawable/radio_button_selector"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="英制"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/g_metric_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radio_button_selector"
+                    android:padding="5dp"
+                    android:shadowColor="@color/white"
+                    android:text="公制"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"/>
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="显示电池电压"/>
+
+            <Switch
+                android:id="@+id/g_battery_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="显示返航点方向"/>
+
+            <Switch
+                android:id="@+id/g_return_direction_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="显示 GPS 坐标"/>
+
+            <Switch
+                android:id="@+id/g_gps_coordinate_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="地图类型"/>
+
+            <Spinner
+                android:id="@+id/g_mapType_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerMapType"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="地图自动缩放"/>
+
+            <Switch
+                android:id="@+id/g_map_scale_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="地图安全区域半径"/>
+
+            <EditText
+                android:id="@+id/g_map_safe_radus_et"
+                style="@style/SEditTextStyle"
+                android:layout_toStartOf="@+id/setting_tv"
+                android:text="6406"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/setting_tv"
+                style="@style/STextViewEndStyle"
+                android:text="米"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/g_air_last_position_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center"
+            android:text="飞机最后位置"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/g_reset_all_set_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:text="重置所有设置"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/g_help"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:text="帮助"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="语言"/>
+
+            <Spinner
+                android:id="@+id/g_language_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerLanguages"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/g_privacy_notice_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:text="隐私声明"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/g_license_agreement_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center"
+            android:text="最终用户许可协议"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+</ScrollView>

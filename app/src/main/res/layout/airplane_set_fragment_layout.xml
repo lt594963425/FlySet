@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="返航高度"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/a_returnHeight_ev"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="( 20～500 米)"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+            <EditText
+                android:id="@+id/a_returnHeight_ev"
+                style="@style/SEditTextStyle"
+                android:layout_width="70dp"
+                android:layout_toStartOf="@+id/returnHeight_tv"
+                android:hint="1000"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/returnHeight_tv"
+                style="@style/STextViewEndStyle"
+                android:text="米"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="最大限高"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/a_maxLimit_height_ev"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="( 20～500 米)"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+            <EditText
+                android:id="@+id/a_maxLimit_height_ev"
+                style="@style/SEditTextStyle"
+                android:layout_width="70dp"
+                android:layout_toStartOf="@+id/maxLimit_tv"
+                android:hint="1000"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/maxLimit_tv"
+                style="@style/STextViewEndStyle"
+                android:text="米"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="动态返航点"/>
+
+            <Switch
+                android:id="@+id/a_dynamic_return_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/a_calibrated_compass"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="校准指南针"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="飞行日志"/>
+
+            <Switch
+                android:id="@+id/a_flight_log_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/a_user_secretKey_tv"
+                style="@style/STextViewStyle"
+                android:text="HealthDrones.com 用户密钥"/>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/a_user_secretKey_tv"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:src="@mipmap/hd_small"/>
+
+            <EditText
+                android:id="@+id/a_input_secretKey_ev"
+                style="@style/SEditTextStyle"
+                android:layout_width="150dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/a_test_secretKey_btn"
+                android:background="@drawable/bg_white_line"
+                android:hint="·····"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                />
+
+            <Button
+                android:id="@+id/a_test_secretKey_btn"
+                android:layout_width="75dp"
+                android:layout_height="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="测试"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="HealthDrones.com 自动同步"/>
+
+            <Switch
+                android:id="@+id/a_auto_synchro_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="同步照片/视频预览"/>
+
+            <Spinner
+                android:id="@+id/a_photoVideo_preview_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerPreview"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/a_user_count_synchro_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="与 HealthDrones.com 同步"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="自动起飞(跟随模式)"/>
+
+            <Switch
+                android:id="@+id/a_auto_takeoff_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="遥控端设备的定位精度要求"/>
+
+            <EditText
+                android:id="@+id/a_remote_accuracy_locate_et"
+                style="@style/SEditTextStyle"
+                android:layout_toStartOf="@+id/remote_locate_tv"
+                android:text="49"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/remote_locate_tv"
+                style="@style/STextViewEndStyle"
+                android:text="m"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="云台模式"/>
+
+            <Spinner
+                android:id="@+id/a_cloud_platform_model_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerAutoTakeOff"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="云台仰角扩展(+ 30° )"/>
+
+            <Switch
+                android:id="@+id/a_cloud_angle_expand_switch"
+                style="@style/SSwitchStyle"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="云台可由VR设备控制"/>
+
+            <Switch
+                android:id="@+id/a_cloud_vr_control_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="Use Legacy Mode"
+                android:textAllCaps="false"/>
+
+            <Switch
+                android:id="@+id/a_use_legacy_mode_switch"
+                style="@style/SSwitchStyle"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="前机臂的指示灯"
+                android:textAllCaps="false"/>
+
+            <Switch
+                android:id="@+id/a_front_arm_lamp_switch"
+                style="@style/SSwitchStyle"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

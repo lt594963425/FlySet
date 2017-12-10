@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="C1 FPV (左)"/>
+
+            <Spinner
+                android:id="@+id/q_FPV_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerFPV"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 FPV (右)"/>
+
+            <Spinner
+                android:id="@+id/q_FPV_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerFPV"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C1 航点 (左)"/>
+
+            <Spinner
+
+                android:id="@+id/q_airlines_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerAirlines"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 航点 (右)"/>
+
+            <Spinner
+                android:id="@+id/q_airlines_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerAirlines"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C1 跟随 (左)"/>
+
+            <Spinner
+                android:id="@+id/q_follow_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerFollow"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 跟随 (右)"/>
+
+            <Spinner
+                android:id="@+id/q_follow_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerFollow"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C1 环绕 (左)"/>
+
+            <Spinner
+                android:id="@+id/q_surround_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerSurround"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 环绕 (右)"/>
+
+            <Spinner
+                android:id="@+id/q_surround_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerSurround"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C1 焦点 (左)"/>
+
+            <Spinner
+                android:id="@+id/q_focus_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerFocus"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 焦点 (右)"/>
+
+            <Spinner
+                android:id="@+id/q_focus_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerFocus"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C1 全景 (左)"/>
+
+            <Spinner
+                android:id="@+id/q_panorama_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerPanoramaTrack"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 全景 (右)"/>
+tp
+            <Spinner
+                android:id="@+id/q_panorama_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerPanoramaTrack"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C1 跟踪 (左)"/>
+
+            <Spinner
+                android:id="@+id/q_track_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerPanoramaTrack"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 跟踪 (右)"/>
+
+            <Spinner
+                android:id="@+id/q_track_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerPanoramaTrack"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C1 长按 (左)"/>
+
+            <Spinner
+                android:id="@+id/q_longPress_left_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerLongPress"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="C2 长按 (右)"/>
+
+            <Spinner
+                android:id="@+id/q_longPress_right_spr"
+                style="@style/SSpinnerViewStyle"
+                android:entries="@array/SpinnerLongPress"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</ScrollView>

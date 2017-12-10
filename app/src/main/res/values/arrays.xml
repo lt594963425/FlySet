@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--设置->通用设置-->
+    <string-array name="SpinnerMapType">
+        <item>标志视图</item>
+        <item>卫星视图 </item>
+        <item>地形</item>
+        <item>混合视图</item>
+    </string-array>
+
+    <string-array name="SpinnerLanguages">
+        <item>中文(中国)</item>
+        <item>英文</item>
+    </string-array>
+
+    <!--设置->相机设置-->
+    <string-array name="SpinnerVideoFormat">
+        <item>MOV</item>
+        <item>MP4</item>
+    </string-array>
+
+    <string-array name="SpinnerAntiTwinkle">
+        <item>自动</item>
+        <item>60 Hz</item>
+        <item>50 Hz</item>
+    </string-array>
+
+    <string-array name="SpinnerGridReferenceLine">
+        <item>禁用</item>
+        <item>网格</item>
+        <item>网格+对角线</item>
+    </string-array>
+
+    <!--设置->飞机-->
+    <string-array name="SpinnerPreview">
+        <item>无</item>
+        <item>设为4 预览</item>
+        <item>设为 10 预览</item>
+    </string-array>
+
+    <string-array name="SpinnerAutoTakeOff">
+        <item>Free(Inspire)</item>
+        <item>FPV</item>
+        <item>转向跟随</item>
+    </string-array>
+
+    <!--设置->快捷按键 FPV 19-->
+    <string-array name="SpinnerFPV">
+        <item>地图/视频切换</item>
+        <item>重置云台</item>
+        <item>云台俯仰角/航向</item>
+        <item>航向锁定</item>
+        <item>返航点锁定</item>
+        <item>VR模式</item>
+        <item>飞机位置设为返航点</item>
+        <item>遥控者位置为返航点</item>
+        <item>禁用</item>
+        <item>前机臂指示灯</item>
+        <item>手机相机(VR)</item>
+        <item>切换沉浸式虚拟现实</item>
+        <item>切换虚拟现实游戏杆</item>
+        <item>中心自动对焦</item>
+        <item>数码变焦放大</item>
+        <item>数码变焦缩小</item>
+        <item>竖拍模式</item>
+        <item>曝光锁定/解锁</item>
+    </string-array>
+    <!--快捷按键 航点 -->
+    <string-array name="SpinnerAirlines">
+        <item>航点为飞机位置</item>
+        <item>航点为遥控位置</item>
+        <item>地图/视频切换</item>
+        <item>重置云台</item>
+        <item>云台俯仰角/航向</item>
+        <item>设置飞机当前位置为兴趣点</item>
+        <item>设置遥控者位置为兴趣点</item>
+        <item>VR模式</item>
+        <item>(暂停/继续)飞行</item>
+        <item>飞机位置设为返航点</item>
+        <item>遥控者位置为返航点</item>
+        <item>禁用</item>
+        <item>前机臂指示灯</item>
+        <item>手机相机(VR)</item>
+        <item>中心自动对焦</item>
+        <item>数码变焦放大</item>
+        <item>数码变焦缩小</item>
+        <item>竖拍模式</item>
+        <item>曝光锁定/解锁</item>
+    </string-array>
+    <!--快捷按键 跟随 -->
+    <string-array name="SpinnerFollow">
+        <item>地图/视频切换</item>
+        <item>重置云台</item>
+        <item>云台俯仰角/航向</item>
+        <item>VR模式</item>
+        <item>跟随机头模式</item>
+        <item>(暂停/继续)飞行</item>
+        <item>飞机位置设为返航点</item>
+        <item>遥控者位置为返航点</item>
+        <item>跟随飞机位置</item>
+        <item>目标偏移</item>
+        <item>禁用</item>
+        <item>前机臂指示灯</item>
+        <item>手机相机(VR)</item>
+        <item>中心自动对焦</item>
+        <item>数码变焦放大</item>
+        <item>数码变焦缩小</item>
+        <item>竖拍模式</item>
+        <item>曝光锁定/解锁</item>
+    </string-array>
+
+    <!--快捷按键 环绕 -->
+    <string-array name="SpinnerSurround">
+        <item>地图/视频切换</item>
+        <item>重置云台</item>
+        <item>云台俯仰角/航向</item>
+        <item>设置飞机当前位置为兴趣点</item>
+        <item>设置遥控者位置为兴趣点</item>
+        <item>VR模式</item>
+        <item>设置飞机当前位置为环绕点</item>
+        <item>(暂停/继续)飞行</item>
+        <item>飞机位置设为返航点</item>
+        <item>遥控者位置为返航点</item>
+        <item>禁用</item>
+        <item>前机臂指示灯</item>
+        <item>手机相机(VR)</item>
+        <item>中心自动对焦</item>
+        <item>数码变焦放大</item>
+        <item>数码变焦缩小</item>
+        <item>竖拍模式</item>
+        <item>曝光锁定/解锁</item>
+    </string-array>
+
+    <!--快捷按键 焦点-->
+    <string-array name="SpinnerFocus">
+        <item>地图/视频切换</item>
+        <item>重置云台</item>
+        <item>云台俯仰角/航向</item>
+        <item>设置飞机当前位置为兴趣点</item>
+        <item>设置遥控者位置为兴趣点</item>
+        <item>航向锁定</item>
+        <item>VR模式</item>
+        <item>(暂停/继续)飞行</item>
+        <item>飞机位置设为返航点</item>
+        <item>遥控者位置为返航点</item>
+        <item>禁用</item>
+        <item>前机臂指示灯</item>
+        <item>手机相机(VR)</item>
+        <item>中心自动对焦</item>
+        <item>数码变焦放大</item>
+        <item>数码变焦缩小</item>
+        <item>竖拍模式</item>
+        <item>曝光锁定/解锁</item>
+    </string-array>
+    <!--快捷按键 全景/跟随-->
+    <string-array name="SpinnerPanoramaTrack">
+        <item>地图/视频切换</item>
+        <item>重置云台</item>
+        <item>云台俯仰角/航向</item>
+        <item>VR模式</item>
+        <item>(暂停/继续)飞行</item>
+        <item>飞机位置设为返航点</item>
+        <item>遥控者位置为返航点</item>
+        <item>禁用</item>
+        <item>前机臂指示灯</item>
+        <item>手机相机(VR)</item>
+        <item>中心自动对焦</item>
+        <item>数码变焦放大</item>
+        <item>数码变焦缩小</item>
+        <item>竖拍模式</item>
+        <item>曝光锁定/解锁</item>
+    </string-array>
+    <!--快捷按键 长按-->
+    <string-array name="SpinnerLongPress">
+        <item>航点为飞机位置</item>
+        <item>航点为遥控位置</item>
+        <item>地图/视频切换</item>
+        <item>重置云台</item>
+        <item>云台俯仰角/航向</item>
+        <item>航向锁定</item>
+        <item>返航点锁定</item>
+        <item>VR模式</item>
+        <item>跟随机头模式</item>
+        <item>(暂停/继续)飞行</item>
+        <item>飞机位置设为返航点</item>
+        <item>遥控者位置为返航点</item>
+        <item>VR模式</item>
+        <item>设置飞机当前位置为兴趣点</item>
+        <item>设置遥控器位置为兴趣点</item>
+        <item>跟随飞机位置</item>
+        <item>目标偏移</item>
+        <item>禁用</item>
+        <item>前机臂指示灯</item>
+        <item>手机相机(VR)</item>
+        <item>切换沉浸式虚拟现实</item>
+        <item>切换虚拟现实游戏杆</item>
+        <item>中心自动对焦</item>
+        <item>数码变焦放大</item>
+        <item>数码变焦缩小</item>
+        <item>竖拍模式</item>
+        <item>曝光锁定/解锁</item>
+    </string-array>
+
+</resources>

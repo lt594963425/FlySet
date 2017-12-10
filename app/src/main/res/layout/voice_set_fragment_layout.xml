@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="语音提示"/>
+
+            <Switch
+                android:id="@+id/v_voice_hint_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="提示频率"/>
+
+            <EditText
+                android:id="@+id/v_voice_hint_rate_et"
+                style="@style/SEditTextStyle"
+                android:layout_toStartOf="@+id/voice_setting_tv"
+                android:text="20"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/voice_setting_tv"
+                style="@style/STextViewEndStyle"
+                android:text="秒"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="高度提示"/>
+
+            <Switch
+                android:id="@+id/v_height_hint_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="距离提示"/>
+
+            <Switch
+                android:id="@+id/v_direction_hint_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="速度提示"/>
+
+            <Switch
+                android:id="@+id/v_speed_hint_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="电量提示"/>
+
+            <Switch
+                android:id="@+id/v_electric_hint_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="提示频率"/>
+
+            <EditText
+                android:id="@+id/v_electric_hint_rate_et"
+                style="@style/SEditTextStyle"
+                android:layout_toStartOf="@+id/electric_setting_tv"
+                android:text="60"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/electric_setting_tv"
+                style="@style/STextViewEndStyle"
+                android:text="秒"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="低电量报警阀值"/>
+
+            <EditText
+                android:id="@+id/v_low_electric_alarm_value_et"
+                style="@style/SEditTextStyle"
+                android:layout_toStartOf="@+id/low_electric_tv"
+                android:text="60"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/low_electric_tv"
+                style="@style/STextViewEndStyle"
+                android:text="%"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="卫星数不足报警阀值"/>
+
+            <EditText
+                android:id="@+id/v_low_satellite_alarm_value_et"
+                style="@style/SEditTextStyle"
+                android:layout_toStartOf="@+id/low_satellite_tv"
+                android:text="60"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/low_satellite_tv"
+                style="@style/STextViewEndStyle"
+                android:text="颗"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</ScrollView>
