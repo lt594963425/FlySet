@@ -4,12 +4,15 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#40ccff</color>
     <color name="blue">#3db5de</color>
-    <color name="black">#000000</color>
+    <color name="black">#99000000</color>
     <color name="white">#ffffff</color>
     <color name="colorGray">#999999</color>
+    <color name="colorGraySpr">#666666</color>
+    <color name="colorGraySpr2">#282828</color>
     <color name="tab_normal_color">#99ffffff</color>
     <color name="tab_selected_color">#ffffff</color>
     <color name="tab_divider_color">#3db5de</color>
+    <color name="tab_">#BBFFFFFF</color>
 
 
     <color name="color_bg_selected">#e0301e</color>

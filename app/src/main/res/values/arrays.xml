@@ -20,20 +20,20 @@
     </string-array>
 
     <string-array name="SpinnerAntiTwinkle">
-        <item>自动</item>
+        <item>自 动</item>
         <item>60 Hz</item>
         <item>50 Hz</item>
     </string-array>
 
     <string-array name="SpinnerGridReferenceLine">
-        <item>禁用</item>
-        <item>网格</item>
+        <item>禁 用</item>
+        <item>网 格</item>
         <item>网格+对角线</item>
     </string-array>
 
     <!--设置->飞机-->
     <string-array name="SpinnerPreview">
-        <item>无</item>
+        <item>  无 </item>
         <item>设为4 预览</item>
         <item>设为 10 预览</item>
     </string-array>

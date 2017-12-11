@@ -12,7 +12,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import com.mvp.lt.flyset.R;
-import com.mvp.lt.flyset.ui.Base.BaseFragment;
+import com.mvp.lt.flyset.ui.base.BaseFragment;
 import com.mvp.lt.flyset.ui.adapter.SpinnerArrayAdapter;
 
 import butterknife.BindView;

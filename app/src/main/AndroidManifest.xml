@@ -22,6 +22,12 @@
         <activity
             android:name=".ui.activity.SettingActivity"
             android:screenOrientation="sensorLandscape"/>
+        <activity
+            android:name=".ui.activity.VerticalMenuActivity"
+            android:screenOrientation="sensorLandscape"/>
+        <activity
+            android:name=".ui.activity.Setting2Activity"
+            android:screenOrientation="sensorLandscape"/>
     </application>
 
 </manifest>

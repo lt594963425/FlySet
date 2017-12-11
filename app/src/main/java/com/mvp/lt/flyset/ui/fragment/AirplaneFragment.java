@@ -5,15 +5,14 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
 
 import com.mvp.lt.flyset.R;
-import com.mvp.lt.flyset.ui.Base.BaseFragment;
 import com.mvp.lt.flyset.ui.adapter.SpinnerArrayAdapter;
+import com.mvp.lt.flyset.ui.base.BaseFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -35,18 +34,9 @@ public class AirplaneFragment extends BaseFragment {
     Switch mADynamicReturnSwitch;
     @BindView(R.id.a_calibrated_compass)
     TextView mACalibratedCompass;
-    @BindView(R.id.a_flight_log_switch)
-    Switch mAFlightLogSwitch;
-    @BindView(R.id.a_input_secretKey_ev)
-    EditText mAInputSecretKeyEv;
-    @BindView(R.id.a_test_secretKey_btn)
-    Button mATestSecretKeyBtn;
-    @BindView(R.id.a_auto_synchro_switch)
-    Switch mAAutoSynchroSwitch;
+
     @BindView(R.id.a_photoVideo_preview_spr)
     Spinner mAPhotoVideoPreviewSpr;
-    @BindView(R.id.a_user_count_synchro_tv)
-    TextView mAUserCountSynchroTv;
     @BindView(R.id.a_auto_takeoff_switch)
     Switch mAAutoTakeoffSwitch;
     @BindView(R.id.a_remote_accuracy_locate_et)

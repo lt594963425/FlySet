@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Spinner;
 
 import com.mvp.lt.flyset.R;
-import com.mvp.lt.flyset.ui.Base.BaseFragment;
+import com.mvp.lt.flyset.ui.base.BaseFragment;
 import com.mvp.lt.flyset.ui.adapter.SpinnerArrayAdapter;
 
 import butterknife.BindView;

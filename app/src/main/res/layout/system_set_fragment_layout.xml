@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="服务器IP"/>
+
+            <EditText
+                android:id="@+id/s_server_ip_et"
+                style="@style/SEditTextStyle"
+                android:layout_width="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="192.168.6.46"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/SViewStyle"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+
+                style="@style/STextViewStyle"
+                android:text="通讯端口"/>
+
+            <EditText
+                android:id="@+id/s_communication_point_et"
+                style="@style/SEditTextStyle"
+                android:layout_width="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="3306"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/SViewStyle"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="飞行日志"/>
+
+            <Switch
+                android:id="@+id/s_flight_log_switch"
+                style="@style/SSwitchStyle"
+                android:checked="true"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/SViewStyle"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/s_user_secretKey_tv"
+                style="@style/STextViewStyle"
+                android:text="用户密钥"/>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/s_user_secretKey_tv"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:src="@mipmap/hd_small"/>
+
+            <EditText
+                android:id="@+id/s_input_secretKey_ev"
+                style="@style/SEditTextStyle"
+                android:layout_width="150dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/s_test_secretKey_btn"
+                android:background="@drawable/bg_white_line"
+                android:hint="·····"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                />
+
+            <Button
+                android:id="@+id/s_test_secretKey_btn"
+                android:layout_width="75dp"
+                android:layout_height="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="测试"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/SViewStyle"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_rl_height"
+            android:gravity="center">
+
+            <TextView
+                style="@style/STextViewStyle"
+                android:text="自动同步"/>
+
+            <Switch
+                android:id="@+id/s_auto_synchro_switch"
+                style="@style/SSwitchStyle"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/SViewStyle"/>
+
+        <TextView
+            android:id="@+id/s_user_count_synchro_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="与 账号 同步"
+            />
+
+        <View
+            style="@style/SViewStyle"/>
+
+        <TextView
+            android:id="@+id/s_user_login_tv"
+            style="@style/STextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_white_line"
+            android:text="用户登录"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.mvp.lt.flyset.ui.activity.Setting2Activity;
 import com.mvp.lt.flyset.ui.activity.SettingActivity;
 
 /**
@@ -20,7 +21,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void clickToSet(View view) {
+    public void clickHorizontal(View view) {
         startActivity(new Intent(this, SettingActivity.class));
+    }
+
+
+    public void clickVertical(View view) {
+        startActivity(new Intent(this, Setting2Activity.class));
     }
 }

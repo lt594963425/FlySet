@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_rl_height"
+        android:background="@color/black"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/v_set_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="设置()"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:id="@+id/v_set_back_iv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:entries="@array/SpinnerMapType"
+            android:padding="10dp"
+            android:src="@mipmap/ic_delete_image"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/SViewStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/v_menu_rg"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/server_set_rb"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_tab_background"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="系统设置"
+                android:textColor="@drawable/selector_tab_text"/>
+
+            <View
+                style="@style/SViewStyle"/>
+
+            <RadioButton
+                android:id="@+id/general_set_rb"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_tab_background"
+                android:button="@null"
+                android:gravity="center"
+                android:text="通用设置"
+                android:textColor="@drawable/selector_tab_text"
+                />
+
+            <View
+                style="@style/SViewStyle"/>
+
+            <RadioButton
+                android:id="@+id/camera_set_rb"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_tab_background"
+                android:button="@null"
+                android:gravity="center"
+                android:text="相机设置"
+                android:textColor="@drawable/selector_tab_text"/>
+
+            <View
+                style="@style/SViewStyle"/>
+
+            <RadioButton
+                android:id="@+id/airplane_set_rb"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_tab_background"
+                android:button="@null"
+                android:gravity="center"
+                android:text="飞机"
+                android:textColor="@drawable/selector_tab_text"/>
+
+            <View
+                style="@style/SViewStyle"/>
+
+            <RadioButton
+                android:id="@+id/voice_set_rb"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_tab_background"
+                android:button="@null"
+                android:gravity="center"
+                android:text="语音提示"
+                android:textColor="@drawable/selector_tab_text"/>
+
+            <View
+                style="@style/SViewStyle"/>
+
+            <RadioButton
+                android:id="@+id/quick_set_rb"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_tab_background"
+                android:button="@null"
+                android:gravity="center"
+                android:text="快捷按键"
+                android:textColor="@drawable/selector_tab_text"/>
+
+        </RadioGroup>
+
+        <View
+            style="@style/SViewStyle"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vertical_viewpager"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

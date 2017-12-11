@@ -6,6 +6,8 @@
     android:background="@color/black">
 
     <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -36,7 +38,6 @@
                 style="@style/SEditTextStyle"
                 android:layout_width="70dp"
                 android:layout_toStartOf="@+id/returnHeight_tv"
-                android:hint="1000"
                 android:inputType="numberDecimal"
                 android:textColor="@color/white"
                 />
@@ -49,9 +50,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -79,7 +78,6 @@
                 style="@style/SEditTextStyle"
                 android:layout_width="70dp"
                 android:layout_toStartOf="@+id/maxLimit_tv"
-                android:hint="1000"
                 android:inputType="numberDecimal"
                 android:textColor="@color/white"
                 />
@@ -92,9 +90,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -111,9 +107,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <TextView
             android:id="@+id/a_calibrated_compass"
@@ -124,105 +118,9 @@
             />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/setting_rl_height"
-            android:gravity="center">
 
-            <TextView
-                style="@style/STextViewStyle"
-                android:text="飞行日志"/>
-
-            <Switch
-                android:id="@+id/a_flight_log_switch"
-                style="@style/SSwitchStyle"
-                android:checked="true"/>
-        </RelativeLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/setting_rl_height"
-            android:layout_gravity="center"
-            android:gravity="center">
-
-            <TextView
-
-                android:id="@+id/a_user_secretKey_tv"
-                style="@style/STextViewStyle"
-                android:text="HealthDrones.com 用户密钥"/>
-
-            <ImageView
-                android:layout_width="32dp"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/a_user_secretKey_tv"
-                android:gravity="center"
-                android:paddingBottom="5dp"
-                android:paddingTop="5dp"
-                android:src="@mipmap/hd_small"/>
-
-            <EditText
-                android:id="@+id/a_input_secretKey_ev"
-                style="@style/SEditTextStyle"
-                android:layout_width="150dp"
-                android:layout_marginEnd="10dp"
-                android:layout_toStartOf="@+id/a_test_secretKey_btn"
-                android:background="@drawable/bg_white_line"
-                android:hint="·····"
-                android:inputType="textPassword"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                />
-
-            <Button
-                android:id="@+id/a_test_secretKey_btn"
-                android:layout_width="75dp"
-                android:layout_height="22dp"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="5dp"
-                android:layout_marginTop="9dp"
-                android:background="@color/blue"
-                android:gravity="center"
-                android:paddingBottom="5dp"
-                android:paddingLeft="15dp"
-                android:paddingRight="15dp"
-                android:paddingTop="5dp"
-                android:text="测试"
-                android:textColor="@color/white"
-                android:textSize="12sp"/>
-        </RelativeLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/setting_rl_height"
-            android:gravity="center">
-
-            <TextView
-                style="@style/STextViewStyle"
-                android:text="HealthDrones.com 自动同步"/>
-
-            <Switch
-                android:id="@+id/a_auto_synchro_switch"
-                style="@style/SSwitchStyle"/>
-        </RelativeLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -241,22 +139,8 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
-        <TextView
-            android:id="@+id/a_user_count_synchro_tv"
-            style="@style/STextViewStyle"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:text="与 HealthDrones.com 同步"
-            />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -274,9 +158,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -306,9 +188,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -327,9 +207,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -347,9 +225,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -368,9 +244,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -389,9 +263,8 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/setting_rl_height"

@@ -6,6 +6,8 @@
     android:background="@color/black">
 
     <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -26,9 +28,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -48,9 +48,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -71,9 +69,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -93,9 +89,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -115,9 +109,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
 
         <RelativeLayout
@@ -138,9 +130,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -160,9 +150,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/setting_rl_height"
@@ -181,9 +169,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -203,9 +189,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
 
         <RelativeLayout
@@ -226,9 +210,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -248,9 +230,7 @@
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -270,9 +250,7 @@ tp
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -292,9 +270,7 @@ tp
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -314,9 +290,7 @@ tp
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -336,9 +310,7 @@ tp
         </RelativeLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
+            style="@style/SViewStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -357,10 +329,6 @@ tp
                 />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/white"/>
     </LinearLayout>
 
 </ScrollView>
