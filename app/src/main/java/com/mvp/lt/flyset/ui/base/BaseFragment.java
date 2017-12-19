@@ -15,7 +15,11 @@ import android.view.ViewGroup;
  * @date 2017/12/8/008
  */
 
-public class BaseFragment  extends Fragment {
+public class BaseFragment extends Fragment {
+    private static final String TAG = BaseFragment.class.getSimpleName();
+
+    protected boolean isVisible;
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -25,5 +29,36 @@ public class BaseFragment  extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    /**
+     * 在这里实现Fragment数据的缓加载.
+     *
+     * @param isVisibleToUser
+     */
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (getUserVisibleHint()) {
+            isVisible = true;
+            onVisible();
+        } else {
+            isVisible = false;
+            onInvisible();
+        }
+    }
+
+    protected void onVisible() {
+        lazyLoad();
+    }
+
+    //protected abstract void lazyLoad();
+    protected void lazyLoad() {
+    }
+
+    ;
+
+
+    protected void onInvisible() {
     }
 }

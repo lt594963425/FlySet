@@ -34,7 +34,6 @@ public class AirplaneFragment extends BaseFragment {
     Switch mADynamicReturnSwitch;
     @BindView(R.id.a_calibrated_compass)
     TextView mACalibratedCompass;
-
     @BindView(R.id.a_photoVideo_preview_spr)
     Spinner mAPhotoVideoPreviewSpr;
     @BindView(R.id.a_auto_takeoff_switch)

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickHorizontal(View view) {
         startActivity(new Intent(this, SettingActivity.class));
-    }
+   }
 
 
     public void clickVertical(View view) {

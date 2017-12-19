@@ -22,16 +22,14 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 
 /**
-
  * 系统设置
  *
  * @author ${LiuTao}
  * @date 2017/12/11/011
  */
 
-public class SystemSetFragment extends BaseFragment  {
+public class SystemSetFragment extends BaseFragment {
     private static final String TAG = "SystemSetFragment";
-
     @BindView(R.id.s_server_ip_et)
     EditText mSServerIpEt;
     @BindView(R.id.s_communication_point_et)
@@ -103,23 +101,23 @@ public class SystemSetFragment extends BaseFragment  {
         final EditText mPassword = (EditText) view.findViewById(R.id.id_txt_password);
         builder.setCancelable(false);
         builder.setView(view).setPositiveButton("确定",
-                        new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int id) {
-                                Log.e(TAG, "帐号：" + mUsername.getText().toString() + ",  密码 :" + mPassword.getText().toString());
-                                //保存账号密码
-                            }
-                        }).setNegativeButton("取消", null);
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int id) {
+                        Log.e(TAG, "帐号：" + mUsername.getText().toString() + ",  密码 :" + mPassword.getText().toString());
+                        //保存账号密码
+                    }
+                }).setNegativeButton("取消", null);
         builder.create();
         builder.show();
 
     }
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         unbinder.unbind();
     }
-
 
 
 }
