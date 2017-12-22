@@ -23,4 +23,5 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.mvp.lt.flyset", appContext.getPackageName());
     }
+
 }

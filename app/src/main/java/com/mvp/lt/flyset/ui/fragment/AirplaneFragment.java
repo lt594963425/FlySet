@@ -2,6 +2,7 @@ package com.mvp.lt.flyset.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,6 +62,11 @@ public class AirplaneFragment extends BaseFragment {
         View view = inflater.inflate(R.layout.airplane_set_fragment_layout, null);
         unbinder = ButterKnife.bind(this, view);
         initSpinner();
+
+        Log.e("TAG",mAPhotoVideoPreviewSpr.getSelectedItemId()+"");
+        Log.e("TAG",mAPhotoVideoPreviewSpr.getSelectedItem()+"");
+        Log.e("TAG",mAPhotoVideoPreviewSpr.getSelectedItemPosition()+"");
+
         return view;
     }
 
