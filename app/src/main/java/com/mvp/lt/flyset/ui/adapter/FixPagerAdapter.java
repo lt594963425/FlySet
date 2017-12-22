@@ -21,10 +21,15 @@ public class FixPagerAdapter extends FragmentStatePagerAdapter {
         this.mItems =items;
     }
 
+
+
+
     @Override
     public Fragment getItem(int position) {
         return mItems.get(position).second;
     }
+
+
 
     @Override
     public int getCount() {
