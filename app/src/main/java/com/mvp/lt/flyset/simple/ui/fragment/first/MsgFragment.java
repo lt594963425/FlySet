@@ -73,7 +73,6 @@ public class MsgFragment extends BaseBackFragment {
         // 入场动画结束后执行  优化,防动画卡顿
 
         _mActivity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
-
         mRecy.setLayoutManager(new LinearLayoutManager(_mActivity));
         mRecy.setHasFixedSize(true);
         mAdapter = new MsgAdapter(_mActivity);
