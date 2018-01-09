@@ -18,4 +18,8 @@
     <color name="color_bg_selected">#e0301e</color>
     <color name="color_bg_normal">#e7e7e8</color>
     <color name="transparent">#000000</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="bg_app">#F1F1F1</color>
 </resources>

@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">flySet</string>
+
+    <string name="new_tip_start_dont_hide">Customize the animation between the Fragments, and do not hide self</string>
+    <string name="new_tip_start">Customize the animation between the Fragments</string>
+    <string name="msg">消息</string>
+    <string name="discover">发现</string>
+    <string name="more">更多</string>
+    <string name="all">全部</string>
+    <string name="can_swipe">可侧滑返回</string>
+    <string name="large_text">
+
+        Google 发布 2018 年强硬新政策，开发者不容忽视！
+        1. 背景  从 Android 6.0 开始，Google 开始逐渐收紧 Android 平台的开放性，并在进一步提升应用的安全性、性能以及隐私保护方面做出了许多努力。这一点，从 Google 在之后的 Android 7.0 和 8.0 上不断作出的调整就可以看出。  但事实上，开发者在开发过程中，迫于开发及维护成本，并没有及时响应并针对 Google 的动作作出调整，使得 Google 在实现让Android 设备更安全、更高效的愿景上显得力不从心，这一点是 Google 所不愿意看到的。  于是，Google 终于按捺不住，在最近出台了新的政策，提出了开发者必须做出的三大变更，并明确了变更的时间点（也就是 deadline），可谓是强硬了一把！
+        2. 三大变更  下面是 Google 推出的三大变更：  从2018年下半年开始，强制要求 targetSdkVersion 2019年8月前支持64位的Android架构； 在2018年初为APK添加安全性元数据； 后两条变更对于开发者的影响还是比较小或者不那么迫切的，所以不是我今天要说得重点，感兴趣的可以前往 Google 开发者博客了解更多（详见文末链接）。  下面，我们着重看一下第一条变更，坐稳了别慌！
+        3. 重点解读：targetSdkVersion  按照 Google 的说法，在2018年8月以后发布的新应用，以及2018年11月以后更新的应用，必须以最新的 Android API 级别作为目标。也就是说，最晚到 2018年11月（发布新应用是8月），你在Google Play上的应用，其 targetSdkVersion 必须为 Google 发布的最新 API 级别，目前为 26（Android 8.0）。
+        同时，从2019年起，在每个Android版本发布后的一年内，所有新的应用程序和应用程序更新， targetSdkVersion 都必须跟上或更高。  根据在读者群中收集到的反馈，大家项目中的 targetSdkVersion 普遍还停留在 22,也就是 Android 6.0以下。我们都知道，造成这一现象的主要原因是 Google 在 6.0 引入了运行时权限。  在这之后，Google 在 7.0 和 8.0 上做出的一系列安全性、隐私性和性能优化，更是让众多开发者望而却步：一方面，程序作出改动以适配新的 API 是必不可少的工作，但另一方面 ，主要是“限制”了开发者发挥的余地，不能再…（此处省略1000字）  Google 不可能坐视不管，任由开发者发挥。于是，就有了这一条强硬的政策！以试图减少应用程序生态系统中的碎片化，确保应用程序的安全性和性能。
+        4. 我们该怎么做？  政策我们知道了，该如何做呢？  我们可以将自 Android 6.0 开始到目前，做出的所有变更汇总起来，然后针对涉及到自己应用实际场景的变更作出调整即可。由于涉及的变更点太多了，无法一一列举，在此贴出官方文档中每一版的变更说明，你可以对照去修改。  Android 6.0 变更  Android 7.0 行为变更  Android 8.0 行为变更
+        5. 总结  刚才一直围绕在 Google Play 分发有用展开的，国内市场目前确实还没有这一动向。但并不是说不在 Google Play 分发应用，你就不需要 care 了。一方面，Google 作出如此大的调整，目的也很明确，作为开发者我们有必要追随 Google 的步伐向前看；另一方面，国内各大市场是否会因此作出相应调整，我们不得而知，所谓有备无患，还是尽早准备的好（前提是你得说服老板或者Leader...）。  这一次，Google 终于拿出自己的态度，旨在构建更统一的生态，同时带领开发者拥抱新进的技术，多么令人兴奋！作为一个 Android 开发者，对于 Google 的这一政策，我表示支持，也很欣慰。我只想说：
+    </string>
+
 </resources>

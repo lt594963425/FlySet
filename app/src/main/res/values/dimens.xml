@@ -23,6 +23,7 @@
     <dimen name="text_size_txt">20dip</dimen>
 
 
-
+    <dimen name="bottombar_height">48dp</dimen>
+    <dimen name="bottombar_wechat_height">52dp</dimen>
 
 </resources>
