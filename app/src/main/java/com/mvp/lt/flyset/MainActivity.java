@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.mvp.lt.flyset.simple.SimpleActivity;
+import com.mvp.lt.flyset.task.TaskActivity;
 import com.mvp.lt.flyset.ui.activity.Setting2Activity;
 import com.mvp.lt.flyset.ui.activity.SettingActivity;
 
@@ -41,5 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickWeiChat(View view) {
         startActivity(new Intent(this, SimpleActivity.class));
+    }
+
+    public void clickTab(View view) {
+        startActivity(new Intent(this, TaskActivity.class));
     }
 }

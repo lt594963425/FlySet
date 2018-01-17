@@ -29,4 +29,9 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:text="仿微信交互"/>
+    <Button
+        android:onClick="clickTab"
+        android:text="tab"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
 </LinearLayout>

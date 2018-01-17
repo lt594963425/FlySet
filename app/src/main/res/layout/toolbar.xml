@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+        app:navigationIcon="@drawable/ic_back"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay"
         app:titleTextAppearance="@style/Toolbar_TextAppearance_White"/>

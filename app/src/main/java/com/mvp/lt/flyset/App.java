@@ -1,6 +1,8 @@
 package com.mvp.lt.flyset;
 
 import android.app.Application;
+import android.content.Context;
+import android.os.Handler;
 
 import me.yokeyword.fragmentation.Fragmentation;
 import me.yokeyword.fragmentation.helper.ExceptionHandler;
@@ -9,10 +11,14 @@ import me.yokeyword.fragmentation.helper.ExceptionHandler;
  * Created by YoKey on 16/11/23.
  */
 public class App extends Application {
-
+    public static Context context;
+    private static Handler mMainThreadHandler;
     @Override
     public void onCreate() {
         super.onCreate();
+        //主线程的Handler
+        mMainThreadHandler = new Handler();
+        context = getApplicationContext();
         Fragmentation.builder()
                 // 设置 栈视图 模式为 悬浮球模式   SHAKE: 摇一摇唤出  默认NONE：隐藏， 仅在Debug环境生效
                 .stackViewMode(Fragmentation.BUBBLE)
@@ -29,5 +35,14 @@ public class App extends Application {
                     }
                 })
                 .install();
+    }
+    /**
+     * 得到主线程里面的创建的一个hanlder
+     */
+    public static Handler getMainThreadHandler() {
+        return mMainThreadHandler;
+    }
+    public static Context getContext() {
+        return context;
     }
 }

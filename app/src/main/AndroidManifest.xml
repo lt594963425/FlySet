@@ -27,6 +27,9 @@
         <activity
             android:name=".simple.SimpleActivity"
             android:launchMode="singleTask"/>
+        <activity
+            android:name=".task.TaskActivity"
+            android:launchMode="singleTask"/>
     </application>
 
 </manifest>
