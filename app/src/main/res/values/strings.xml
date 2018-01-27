@@ -19,4 +19,29 @@
         5. 总结  刚才一直围绕在 Google Play 分发有用展开的，国内市场目前确实还没有这一动向。但并不是说不在 Google Play 分发应用，你就不需要 care 了。一方面，Google 作出如此大的调整，目的也很明确，作为开发者我们有必要追随 Google 的步伐向前看；另一方面，国内各大市场是否会因此作出相应调整，我们不得而知，所谓有备无患，还是尽早准备的好（前提是你得说服老板或者Leader...）。  这一次，Google 终于拿出自己的态度，旨在构建更统一的生态，同时带领开发者拥抱新进的技术，多么令人兴奋！作为一个 Android 开发者，对于 Google 的这一政策，我表示支持，也很欣慰。我只想说：
     </string>
 
+
+    <string name="ble_not_supported">Your device does not support BLE</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No Connection</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">Find BLE device</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="send">Send</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Search</string>
+    <string name="menu_stop">Stop</string>
+    <!--seek bar-->
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
 </resources>

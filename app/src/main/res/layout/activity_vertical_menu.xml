@@ -22,11 +22,11 @@
             android:textSize="16sp"/>
 
         <ImageView
-            android:layout_marginEnd="10dp"
             android:id="@+id/v_set_back_iv"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
             android:clickable="true"
             android:entries="@array/SpinnerMapType"
             android:padding="10dp"
@@ -57,7 +57,7 @@
                 android:button="@null"
                 android:checked="true"
                 android:gravity="center"
-                android:text="系统设置"
+                android:text="服务器设置"
                 android:textColor="@drawable/selector_tab_text"/>
 
             <View
@@ -114,7 +114,7 @@
                 android:background="@drawable/selector_tab_background"
                 android:button="@null"
                 android:gravity="center"
-                android:text="语音提示"
+                android:text="功能设置"
                 android:textColor="@drawable/selector_tab_text"/>
 
             <View
@@ -128,7 +128,7 @@
                 android:background="@drawable/selector_tab_background"
                 android:button="@null"
                 android:gravity="center"
-                android:text="快捷按键"
+                android:text="图传设置"
                 android:textColor="@drawable/selector_tab_text"/>
 
         </RadioGroup>

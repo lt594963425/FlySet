@@ -20,18 +20,32 @@
         android:layout_height="wrap_content"
         android:onClick="clickHorizontal"
         android:text="水平导航"
-      />
+        />
 
 
     <Button
-        android:onClick="clickWeiChat"
         android:id="@+id/wetChatAppButton"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:onClick="clickWeiChat"
         android:text="仿微信交互"/>
+
     <Button
-        android:onClick="clickTab"
-        android:text="tab"
         android:layout_width="match_parent"
-        android:layout_height="48dp"/>
+        android:layout_height="48dp"
+        android:onClick="clickTab"
+        android:text="tab"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="clicklaser"
+        android:text="激光blue"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="clickSeek"
+        android:text="seek"
+        android:textAllCaps="false"/>
 </LinearLayout>

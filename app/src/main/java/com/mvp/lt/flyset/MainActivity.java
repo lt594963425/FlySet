@@ -7,6 +7,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.mvp.lt.flyset.blue.DeviceControlActivity;
+import com.mvp.lt.flyset.seekbar.HorizontalSeekActivity;
 import com.mvp.lt.flyset.simple.SimpleActivity;
 import com.mvp.lt.flyset.task.TaskActivity;
 import com.mvp.lt.flyset.ui.activity.Setting2Activity;
@@ -46,5 +48,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickTab(View view) {
         startActivity(new Intent(this, TaskActivity.class));
+    }
+
+    public void clicklaser(View view) {
+        startActivity(new Intent(this, DeviceControlActivity.class));
+    }
+
+    public void clickSeek(View view) {
+        startActivity(new Intent(this, HorizontalSeekActivity.class));
     }
 }

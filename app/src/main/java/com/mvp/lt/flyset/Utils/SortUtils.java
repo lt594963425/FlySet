@@ -37,4 +37,41 @@ public class SortUtils {
         }
         return list;
     }
+
+    /**
+     * 已知一点经纬度A，和与另一点B的距离和方位角，求B的经纬度
+     *
+     * @param lng1
+     *            A的经度
+     * @param lat1
+     *            A的纬度
+     * @param distance
+     *            AB距离（单位：米）
+     * @param azimuth
+     *            AB方位角
+     * @return B的经纬度
+     * */
+//    public static LatLonPoint convertDistanceToLogLat(double lng1, double lat1,
+//                                                      double distance, double azimuth) {
+//
+//        azimuth = rad(azimuth);
+//        // 将距离转换成经度的计算公式
+//        double lon = lng1 + (distance * Math.sin(azimuth))/ (EARTH_ARC * Math.cos(rad(lat1)));
+//        // 将距离转换成纬度的计算公式
+//        double lat = lat1 + (distance * Math.cos(azimuth)) / EARTH_ARC;
+//
+//        LatLonPoint latLonPoint = new LatLonPoint(lat, lon);
+////        Logger.info("convertDistanceToLogLat=" + lat + "   lon=" + lon);
+//        return latLonPoint;
+//    }
+//    /**
+//     * 转化为弧度(rad)
+//     * */
+//    public static double rad(double d) {
+//        return d * Math.PI / 180.0;
+//    }
+//    /**
+//     * 地球每度的弧长(km)
+//     * */
+//    public final static double EARTH_ARC = 111.199;
 }
