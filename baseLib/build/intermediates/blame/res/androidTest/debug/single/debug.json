@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_pop_enter.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\pop_enter.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_menu_btn_pressed.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\menu_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_popu_get_photo.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\popu_get_photo.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_in_from_left.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\in_from_left.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_s_search_bg.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\s_search_bg.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_top_right_selector.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\top_right_selector.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_out_to_bottom.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\out_to_bottom.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_action.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_emotionstore_progresscancelbtn.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\emotionstore_progresscancelbtn.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_slip_left.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\slip_left.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_qrcode_found.wav.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\raw\\qrcode_found.wav"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_pull_to_load_footer.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_load_footer.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_in_from_bottom.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_slip_right.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\slip_right.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_text_blue.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\text_blue.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_menu_btn_normal.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\menu_btn_normal.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_scan_icon_nor.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\scan_icon_nor.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_in_from_right.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\in_from_right.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_view_top_bar.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\view_top_bar.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_back_seletor.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\back_seletor.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_tab_indicator.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_slip_ball.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\slip_ball.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_topbar_right_press.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\topbar_right_press.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_viewpager_item.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\viewpager_item.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_home_img_ratio.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\home_img_ratio.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_camera.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\camera.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_out_to_top.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\out_to_top.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_progress_bar_states.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_bar_states.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_ad_cycle_view.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\ad_cycle_view.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_out_to_right.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\out_to_right.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_view_custom_toast.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\view_custom_toast.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_share_return.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\share_return.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_pop_exit.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\pop_exit.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_xsearch_loading.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\xsearch_loading.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_btn_bind_cancel.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_bind_cancel.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_out_to_left.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\out_to_left.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_xsearch_msg_pull_arrow_down.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\xsearch_msg_pull_arrow_down.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_in_from_top.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\in_from_top.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_me_share_return_normal.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\me_share_return_normal.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_home_img_ratio_selected.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\home_img_ratio_selected.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_scan_top_bg2.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\scan_top_bg2.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_v1_7_back_blue_nor.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v1_7_back_blue_nor.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_progress_style.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_style.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_me_share_return_press.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\me_share_return_press.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_baseweb.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_baseweb.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_toast_bg.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_bg.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_progressdialog.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_update_loading_progressbar_anim.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\anim\\update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_btn_bind_cancel_.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable\\btn_bind_cancel_.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_pull_to_refresh_header.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color_tab_theme.xml.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\color\\tab_theme.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_v1_7_back_hover.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v1_7_back_hover.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_topbar_right_normal.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\topbar_right_normal.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_news_tab_item_bg_select.9.png.flat",
+        "source": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\news_tab_item_bg_select.9.png"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f75c64d3ed1d8c4b252daf0a2f5ee395\\res\\layout\\notification_media_cancel_action.xml"
+    }
+]

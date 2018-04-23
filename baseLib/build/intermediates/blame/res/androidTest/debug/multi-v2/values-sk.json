@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\FlySet\\FlySet\\baseLib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sk\\values-sk.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\Android_Evn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\b1141189749425fac7d0bd8484b1d138\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
