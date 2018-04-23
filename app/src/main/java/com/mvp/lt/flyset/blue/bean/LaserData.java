@@ -84,14 +84,14 @@ public class LaserData {
     @Override
     public String toString() {
         return "LaserData{" +
-                "levationAngle=" + levationAngle +
-                ", slopeDistance=" + slopeDistance +
-                ", sineHigh=" + sineHigh +
-                ", horizontalDistance=" + horizontalDistance +
-                ", twoHight=" + twoHight +
-                ", guideCorner=" + guideCorner +
-                ", horizontalAngle=" + horizontalAngle +
-                ", spanDis=" + spanDis +
+                "  \n levationAngle=" + levationAngle +
+                ", \n slopeDistance=" + slopeDistance +
+                ", \n sineHigh=" + sineHigh +
+                ", \n horizontalDistance=" + horizontalDistance +
+                ", \n twoHight=" + twoHight +
+                ", \n guideCorner=" + guideCorner +
+                ", \n horizontalAngle=" + horizontalAngle +
+                ", \n spanDis=" + spanDis +
                 '}';
     }
 }

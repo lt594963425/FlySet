@@ -1,51 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="@color/white"
-              android:fitsSystemWindows="true"
-              android:gravity="center"
-              android:orientation="vertical">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="clickVertical"
-        android:text="竖直导航"
-        />
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="clickHorizontal"
-        android:text="水平导航"
-        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickVertical"
+            android:text="竖直导航"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickHorizontal"
+            android:text="水平导航"
+            />
 
 
-    <Button
-        android:id="@+id/wetChatAppButton"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:onClick="clickWeiChat"
-        android:text="仿微信交互"/>
+        <Button
+            android:id="@+id/wetChatAppButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="clickWeiChat"
+            android:text="仿微信交互"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:onClick="clickTab"
-        android:text="tab"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="clickTab"
+            android:text="tab"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:onClick="clicklaser"
-        android:text="激光blue"
-        android:textAllCaps="false"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:onClick="clickSeek"
-        android:text="seek"
-        android:textAllCaps="false"/>
-</LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="clicklaser"
+            android:text="激光blue"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="clickSeek"
+            android:text="小功能"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="clickDJI"
+            android:text="DJI"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/id_chart"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:onClick="clickChange"
+            android:text="DI"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>

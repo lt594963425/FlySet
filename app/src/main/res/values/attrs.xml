@@ -8,4 +8,16 @@
         <attr name="absoluteMaxValue" format="integer|float"/>
         <attr name="singleThumb" format="boolean"/>
     </declare-styleable>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="position" />
+        <attr name="radius" />
+        <attr name="mainButton_layout_marginBottom" format="integer|float"/>
+        <attr name="childButton_padding_LeftAndRight"  format="integer|float"/>
+        <attr name="childButton_padding_TopAndBottom"  format="integer|float"/>
+        <attr name="childButton_gap" format="integer|float"/>
+        <attr name="mainButton_open_img"  />
+        <attr name="mainButton_close_img" />
+    </declare-styleable>
+
 </resources>

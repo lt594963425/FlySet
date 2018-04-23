@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+       <com.mvp.lt.flyset.view.BaseCameraView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+    <TextView
+        android:text="Playback Status"
+        android:id="@+id/tv_mediaPushInfo"
+        android:textColor="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:layout_marginStart="50dp"/>
+   <TextView
+       android:text="11111111"
+       android:id="@+id/primaryVideoFeedTitle"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+
+</LinearLayout>
+</ScrollView>

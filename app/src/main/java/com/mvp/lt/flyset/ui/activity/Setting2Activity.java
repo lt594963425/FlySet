@@ -100,6 +100,41 @@ public class Setting2Activity extends AppCompatActivity implements RadioGroup.On
     private void initViewPager() {
         mVerticalViewpager.setAdapter(new FixPagerAdapter(getSupportFragmentManager(), mItems));
         mVerticalViewpager.setOffscreenPageLimit(3);
+        mVerticalViewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                switch (position) {
+                    case 0:
+                        mVMenuRg.check(R.id.server_set_rb);
+                        break;
+                    case 1:
+                        mVMenuRg.check(R.id.general_set_rb);
+                        break;
+                    case 2:
+                        mVMenuRg.check(R.id.camera_set_rb);
+                        break;
+                    case 3:
+                        mVMenuRg.check(R.id.airplane_set_rb);
+                        break;
+                    case 4:
+                        mVMenuRg.check(R.id.voice_set_rb);
+                        break;
+                    case 5:
+                        mVMenuRg.check(R.id.quick_set_rb);
+                        break;
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
     }
 
     @Override

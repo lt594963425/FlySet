@@ -6,11 +6,38 @@
         android:name="android.hardware.bluetooth_le"
         android:required="true"/>
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <!-- SDK permission requirement -->
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.usb.accessory"
+        android:required="true"/>
+
 
     <application
         android:name=".App"
@@ -20,14 +47,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        //   <!--40eba3f2c273e1bf79f0d3b1-->
+
+        <meta-data
+            android:name="com.dji.sdk.API_KEY"
+            android:value="40eba3f2c273e1bf79f0d3b1"/>
+
+
         <activity
+
             android:name=".MainActivity"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter"/>
         </activity>
+        <activity android:name=".dji.DJIFPVActivity"/>
         <activity
             android:name=".ui.activity.SettingActivity"
             android:screenOrientation="sensorLandscape"/>
@@ -43,6 +86,8 @@
         <activity android:name=".blue.DevicesConectActivity"/>
         <activity android:name=".blue.DeviceControlActivity"/>
         <activity android:name=".seekbar.HorizontalSeekActivity"/>
+        <activity android:name=".ChangeAvtivity"/>
+
 
         <service
             android:name="com.mvp.lt.flyset.blue.BluetoothLeService"

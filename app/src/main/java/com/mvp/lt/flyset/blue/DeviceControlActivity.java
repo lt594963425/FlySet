@@ -117,7 +117,6 @@ public class DeviceControlActivity extends BaseActivity {
                 mDeviceAddress = bundle.getString("DEVICE_ADDRESS");
                 mDeviceInfo.setText(mDeviceName + "\n" + mDeviceAddress);
                 Log.e("deviceinfo", mDeviceName + "\n" + mDeviceAddress);
-
                 mBluetoothLeService.connect(mDeviceAddress);
             }
         }
