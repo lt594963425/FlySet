@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,21 +7,29 @@
     android:background="@color/black"
     tools:context=".MainActivity">
     <!-- Widget to see first person view (FPV) -->
-    <FrameLayout
-
+    <RelativeLayout
         android:id="@+id/frame_layout_bigView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </FrameLayout>
+        android:layout_height="match_parent"
+        android:background="@color/colorGray">
 
-    <FrameLayout
+        <TextView
+            android:id="@+id/aidehua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="艾德华"/>
+    </RelativeLayout>
 
+    <RelativeLayout
         android:id="@+id/frame_layout_littleView"
         android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_gravity="bottom"
-        android:clickable="true">
+        android:layout_height="100dp">
+        <TextView
+            android:background="@color/blue"
+            android:id="@+id/xiaoming"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="小明"/>
+    </RelativeLayout>
 
-    </FrameLayout>
-
-</FrameLayout>
+</RelativeLayout>

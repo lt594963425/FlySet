@@ -12,5 +12,4 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:26.1.0'
-    compile project(':fragmentation_core')
 }

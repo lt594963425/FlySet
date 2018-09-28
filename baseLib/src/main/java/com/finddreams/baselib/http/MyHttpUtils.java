@@ -2,7 +2,6 @@ package com.finddreams.baselib.http;
 
 import java.io.IOException;
 
-import org.apache.http.HttpEntity;
 
 import android.content.Context;
 

@@ -2,8 +2,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
-
-
     defaultConfig {
      //   applicationId "com.finddreams.baselib"
         minSdkVersion 18
@@ -20,9 +18,7 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:26.+'
     compile 'com.google.code.gson:gson:2.2.1'
-    implementation files('libs/android-async-http-1.4.6.jar')
     implementation files('libs/androidannotations-api-3.1.jar')
-    implementation files('libs/butterknife-4.0.1.jar')
     implementation files('libs/com.haarman.listviewanimations-2.6.0.jar')
     implementation files('libs/commons-codec-1.3.jar')
     implementation files('libs/core.jar')
@@ -35,4 +31,5 @@ dependencies {
     implementation files('libs/viewpagertransformslibrary.jar')
     implementation files('libs/volley.jar')
     implementation files('libs/xUtils-2.6.14.jar')
+    implementation files('libs/android-async-http-1.4.6.jar')
 }

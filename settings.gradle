@@ -1,3 +1,2 @@
-include ':app' ,':fragmentation_core', ':fragmentation_swipeback'
+include ':app'
 include ':fragmentation'
-include ':baseLib'

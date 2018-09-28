@@ -6,15 +6,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.multidex.MultiDex;
 
-import com.secneo.sdk.Helper;
+import me.fragmentation.base.Fragmentation;
+import me.helper.ExceptionHandler;
 
-import dji.sdk.base.BaseProduct;
-import dji.sdk.products.Aircraft;
-import dji.sdk.products.HandHeld;
-import dji.sdk.sdkmanager.BluetoothProductConnector;
-import dji.sdk.sdkmanager.DJISDKManager;
-import me.yokeyword.fragmentation.Fragmentation;
-import me.yokeyword.fragmentation.helper.ExceptionHandler;
 
 /**
  * Created by YoKey on 16/11/23.
@@ -22,17 +16,23 @@ import me.yokeyword.fragmentation.helper.ExceptionHandler;
 public class App extends Application {
     public static Context context;
     private static Handler mMainThreadHandler;
-    public static BaseProduct product;
-    private static BluetoothProductConnector bluetoothConnector = null;
+    private static App instance;
+
+
+    public static App getInstance() {
+        return instance;
+    }
+
     @Override
     protected void attachBaseContext(Context paramContext) {
         super.attachBaseContext(paramContext);
         MultiDex.install(this);
-        Helper.install(this);
+
     }
     @Override
     public void onCreate() {
         super.onCreate();
+        instance = this;
         //主线程的Handler
         mMainThreadHandler = new Handler(Looper.getMainLooper());
         context = getApplicationContext();
@@ -63,46 +63,5 @@ public class App extends Application {
     }
     public static Context getContext() {
         return context;
-    }
-
-    /**
-     * Gets instance of the specific product connected after the
-     * API KEY is successfully validated. Please make sure the
-     * API_KEY has been added in the Manifest
-     */
-    public static synchronized BaseProduct getProductInstance() {
-        if (null == product) {
-            product = DJISDKManager.getInstance().getProduct();
-        }
-        return product;
-    }
-
-    public static synchronized BluetoothProductConnector getBluetoothProductConnector() {
-        if (null == bluetoothConnector) {
-            bluetoothConnector = DJISDKManager.getInstance().getBluetoothProductConnector();
-        }
-        return bluetoothConnector;
-    }
-
-    public static boolean isAircraftConnected() {
-        return getProductInstance() != null && getProductInstance() instanceof Aircraft;
-    }
-
-    public static boolean isHandHeldConnected() {
-        return getProductInstance() != null && getProductInstance() instanceof HandHeld;
-    }
-
-    public static synchronized Aircraft getAircraftInstance() {
-        if (!isAircraftConnected()) {
-            return null;
-        }
-        return (Aircraft) getProductInstance();
-    }
-
-    public static synchronized HandHeld getHandHeldInstance() {
-        if (!isHandHeldConnected()) {
-            return null;
-        }
-        return (HandHeld) getProductInstance();
     }
 }
